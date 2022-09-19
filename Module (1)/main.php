@@ -1,7 +1,7 @@
 <?php
-$name = "Raheem";
-$2nd_name =& $name;
+
+$name = 'Raheem';
+$seconf_name = &$name;
 echo $name;
-$name = "sayed";
+$name = 'sayed';
 echo "$name";
-?>
